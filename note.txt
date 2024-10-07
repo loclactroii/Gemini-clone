@@ -1,0 +1,26 @@
+* Linear color for text
+    background: -webkit-linear-gradient(...deg, color, color)
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+* Display grid
+    display: grid;
+    grid-template-columns: repeat(auto-fill, mimmax(180px, 1fr));
+
+* Loading animation
+    backgound: linear-gradient(to right, color, color, color)
+    background-size: 800px 50px;
+    height: 20px;
+    animation name time infinite linear
+    
+    @keyframe name {
+        0%{
+            background-position: -800px 0px;
+        }
+	100%{
+	    background-position: 800px 0px;
+	}
+    }
+
+    
+    
